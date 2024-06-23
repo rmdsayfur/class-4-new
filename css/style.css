@@ -1,0 +1,91 @@
+/* gogle fonts linking */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* global css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* social-media part css */
+
+.social-media {
+    text-align: center;
+}
+.social-media ul li {
+    list-style: none;
+    display: inline-block;
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+.social-media ul li i {
+    color: white;
+    font-size: 25px;
+    /* margin-top: 18px; */
+}
+
+.social-media ul li:hover {
+     background-color:transparent;
+     transition: 0.5s;
+    
+}
+
+.social-media ul li:hover i {
+    color:blue;
+    transition: 0.5s;
+    
+    
+}
+/* position css */
+
+.main-box {
+    position: relative;
+    width: 400px;
+    height: 230px;
+    background-color: green;
+    margin-left: 442px;
+    margin-top: 50px;
+}
+.child-box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: red;
+    left: 120px;
+    top: 40px;
+    border-radius: 50%;
+   
+}
+.map img {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 155px;
+    top: 80px;
+}
